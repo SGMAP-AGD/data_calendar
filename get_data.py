@@ -53,8 +53,8 @@ def get_calendar(ts, date_col=None):
         ts.loc[jour, 'jours_feries'] = 1
 
     # -- Evènemenets (musique, nuit blanche, ..)
-    dates_fete_musique = ['2012-10-06', '2013-10-05', '2014-01-04']
-    dates_nuit_blanche = ['2012-01-21', '2013-01-21', '2014-01-21']
+    dates_fete_musique = ['2012-06-21', '2013-06-21', '2014-06-21']
+    dates_nuit_blanche = ['2012-10-06', '2013-10-05', '2014-10-04']
 
     ts['fete_musique'] = 0
     for fm in dates_fete_musique:
